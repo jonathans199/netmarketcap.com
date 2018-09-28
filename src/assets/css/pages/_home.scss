@@ -1,70 +1,105 @@
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+.video {
+  position: relative !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover !important;
+  height: 100vh;
+  /* height: 100vh !important; */
+  width: 100%;
+  z-index: -1;
+}
 
-.carousel-caption {
-  display: flex !important;
+.video__overlay {
+  opacity: .76;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  overflow: hidden;
+  z-index: 2;
+}
+
+
+.hero-text {
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  top: 50rem;
-  color: #707070;
-  
-
-
-  &__slide-num {
-    font-size: 3rem;
-    font-weight: 100 !important;
-  }
-
-  &__slide-heading {
-    margin: -3rem 0 -4rem 0;
-
-    font-size: 8rem;
-    font-weight: bold;
-  }
-
-  &__slide-sub-heading {
-    font-size: 5rem;
-    font-weight: 300;
-  }
-
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  z-index: 4;
+  position: absolute;
+  bottom: 50vh;
+  color: #c5c2c2;
 }
 
-.carousel-indicators {
-  display: flex !important;
-  // flex-direction: column;
-  align-self: flex-start;
-  
-  // padding: 1rem;
+// .carousel-item {
+//     height: 100vh;
+//     min-height: 300px;
+//     background: no-repeat center center scroll;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+//   }
 
-  & ol {
+// .custom-caption {
+//   color: $color-white;
+//   border: 7px solid $color-orange;
+//   top: 50vh;
+//   bottom: 0px !important;
+
+
+//   &__slide-num {
+//     font-size: 3rem;
+//     font-weight: 100 !important;
+//   }
+
+//   &__slide-heading {
+//     margin: -3rem 0 -4rem 0;
+
+//     font-size: 8rem;
+//     font-weight: bold;
+//   }
+
+//   &__slide-sub-heading {
+//     font-size: 5rem;
+//     font-weight: 300;
+//   }
+
+// }
+
+// .carousel-indicators {
+
+
+  
+//   // padding: 1rem;
+
+//   & ol {
     
-  }
+//   }
 
-  & li {
-    align-items: flex-start;
-    margin: 10px;
-  }
-}
+//   & li {
+//     align-items: flex-start;
+//     margin: 10px;
+//   }
+// }
 
 .intro {
   display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  align-items: center;
-  
+
+  width: 100%;
   height: 60rem;
 
-  &-logo {
-    height: 20rem;
-  }
+}
 
+.intro-left {
+  background-color: #0B1527;
+  width: 50%;
 }
 
 .divider2 {

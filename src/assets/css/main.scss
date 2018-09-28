@@ -4,16 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+    
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
     box-sizing: border-box;
+    font-size: 62.5%;
   }
 
-section {
-    margin-bottom: 10rem;
-}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700');
 
 @import '_typography.scss';
 @import '_variables.scss';

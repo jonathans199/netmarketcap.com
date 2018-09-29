@@ -23,18 +23,30 @@
   z-index: 2;
 }
 
-
 .hero-text {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
-  text-align: center;
+  
+  // text-align: center;
   z-index: 4;
   position: absolute;
-  bottom: 50vh;
+  bottom: 40vh;
   color: #c5c2c2;
+  
+  & .preaccess {
+    position: relative;    
+  }
+}
+
+.main-text {
+  font-size: 6rem;
+  border: 5px solid $color-orange;
+  padding: 1.5rem 6rem;
+  letter-spacing: 13px;
+  font-weight: 900;
 }
 
 // .carousel-item {

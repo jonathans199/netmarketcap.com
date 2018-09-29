@@ -7,7 +7,7 @@
         loop
         playsinline 
         class="video" 
-        title="viviela_video"
+        title="Net Market cap video"
         muted="muted"
         poster="">
           <!-- <source src="@/assets/cryptovideo.webm" type="video/webm"/> -->
@@ -18,17 +18,14 @@
 
 
     <div class="hero-text">
-        <button v-b-modal.formModal type="button" class="home__button">
-                <h1 class="preaccess">GET PRE-ACCESS</h1>
-        </button>
-      <span class="subtext">
-       <a href="mailto:info@viviela.com"> info@viviela.com</a>
-      </span>
-      <div class="social_icons">
-        <a class="fab fa-facebook-square" href="https://www.facebook.com/vivielashoes" target="_blank"></a>&nbsp;
-        <a class="fab fa-instagram" href="https://www.instagram.com/viviela.official/?hl=en" target="_blank"></a>&nbsp;
-        <a class="fab fa-youtube" href="https://www.youtube.com/user/vivielalondon" target="_blank"></a>
-      </div>
+        <h4 class="subtext">FOR</h4>
+        <h1 class="main-text">SMART</h1>
+        <h1 class="submain-text">INVESTORS</h1>
+        <div class="social_icons">
+            <a class="fab fa-facebook-square" href="https://www.facebook.com/vivielashoes" target="_blank"></a>&nbsp;
+            <a class="fab fa-instagram" href="https://www.instagram.com/viviela.official/?hl=en" target="_blank"></a>&nbsp;
+            <a class="fab fa-youtube" href="https://www.youtube.com/user/vivielalondon" target="_blank"></a>
+        </div>
     </div>
 
        <!-- Modal -->

@@ -18,12 +18,17 @@ header {
 .menu {
   color: $color-white;
   width: 60%;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  
 
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 
+  & button {
+    margin-right: 2rem;
+  }
+  
   & a {
     color: $color-white;
     text-decoration: none;
@@ -31,8 +36,8 @@ header {
 
   & :hover {
     color: $color-lightorange;  }
-
 }
+
 
 
 

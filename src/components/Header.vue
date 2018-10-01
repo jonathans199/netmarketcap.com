@@ -8,7 +8,7 @@
             <a href="#">Products</a>
             <a href="#">Contact</a> -->
             <button v-on:click="openTab('http://app.netmarketcap.com/#/register')">REGISTER</button>
-            <button v-on:click="openTab('http://app.netmarketcap.com/#/login')">SIGN IN</button>
+            <button v-on:click="openTab('http://app.netmarketcap.com/#/login')">LOGIN</button>
         </div>
     </header>
 </template>

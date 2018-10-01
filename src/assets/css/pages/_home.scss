@@ -1,12 +1,10 @@
 .video {
-  position: relative !important;
-  top: 0;
+  position: fixed;
   right: 0;
   bottom: 0;
-  left: 0;
   object-fit: cover !important;
-  height: 100vh;
-  /* height: 100vh !important; */
+  min-width: 100%; 
+  min-height: 100%;
   width: 100%;
   z-index: -1;
 }
@@ -17,7 +15,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #000;
   overflow: hidden;
   z-index: 2;
@@ -41,6 +39,8 @@
   }
 }
 
+
+
 .main-text {
   font-size: 6rem;
   border: 5px solid $color-orange;
@@ -48,6 +48,20 @@
   letter-spacing: 13px;
   font-weight: 900;
 }
+
+@media (max-width: 768px) {
+  .main-text {
+    font-size: 3rem;
+  }
+  .submain-text {
+    font-size: 2rem;
+  }
+  .hero-text {
+    bottom: 20vh;
+  }
+
+}
+
 
 // .carousel-item {
 //     height: 100vh;
@@ -176,7 +190,5 @@
     justify-content: space-around;
     align-items: center;
   }
-
-
-
 }
+

@@ -1,166 +1,147 @@
 <template>
   <div>
-      <Header/>
+    <Header/>
+    <section> 
         <div class="video__overlay"></div>
-    <video
-        autoplay
-        loop
-        playsinline 
-        class="video" 
-        title="Net Market cap video"
-        muted="muted"
-        poster="">
-          <!-- <source src="@/assets/cryptovideo.webm" type="video/webm"/> -->
-          <source src="@/assets/bkico.mp4" type="video/mp4" />
-          <!-- <source src="/viviela_video.ogv" type="video/ogg" />     -->
-          <p>ooooooppsss its seems your browser is not supported to display this awesome background video <a href="https://www.google.com/chrome/" target="_blank"> Download and use google chrome</a> </p>       
-    </video>
+        <video
+            autoplay
+            loop
+            playsinline 
+            class="video" 
+            title="Net Market cap video"
+            muted="muted"
+            poster="">
+            <!-- <source src="@/assets/cryptovideo.webm" type="video/webm"/> -->
+            <source src="@/assets/bkico.mp4" type="video/mp4" />
+            <!-- <source src="/viviela_video.ogv" type="video/ogg" />     -->
+            <p>ooooooppsss its seems your browser is not supported to display this awesome background video <a href="https://www.google.com/chrome/" target="_blank"> Download and use google chrome</a> </p>       
+        </video>
 
 
-    <div class="hero-text">
-        <h4 class="subtext">FOR</h4>
-        <h1 class="main-text">SMART</h1>
-        <h1 class="submain-text">INVESTORS</h1>
-        <div class="social_icons">
-            <a class="fab fa-facebook-square" href="https://www.facebook.com/vivielashoes" target="_blank"></a>&nbsp;
-            <a class="fab fa-instagram" href="https://www.instagram.com/viviela.official/?hl=en" target="_blank"></a>&nbsp;
-            <a class="fab fa-youtube" href="https://www.youtube.com/user/vivielalondon" target="_blank"></a>
+        <div class="hero-text">
+            <h4 class="subtext">FOR</h4>
+            <h1 class="main-text">SMART</h1>
+            <h1 class="submain-text">INVESTORS</h1>
+            <div class="social_icons">
+                <a class="fab fa-facebook-square" href="https://www.facebook.com/vivielashoes" target="_blank"></a>&nbsp;
+                <a class="fab fa-instagram" href="https://www.instagram.com/viviela.official/?hl=en" target="_blank"></a>&nbsp;
+                <a class="fab fa-youtube" href="https://www.youtube.com/user/vivielalondon" target="_blank"></a>
+            </div>
         </div>
-    </div>
+    </section>
+    <section class="intro">
+        <div class="intro-left">
+            <img src="@/assets/img/logo_icon.png" alt="">
+        </div>
+        <div class="intro-right">
+            <h1>WE ARE A COMPANY...</h1>
+            <p><b>Why do we use it?</b> </br> 
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+        </div>
+    </section>
 
-       <!-- Modal -->
-            <b-modal hide-footer hide-header id="formModal" ref="formModal">
-                  <div class="modal-header">
-                    <h1 class="modal-title" id="exampleModalLabel">GET PRE-ACCESS</h1>
-                    <button type="button" class="home__button" v-on:click="closeModal()" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <form @submit="onSubmit" @reset="onReset" v-if="show">
-                      <div class="form-row">
-                        <div class="col your_email">
-                          <input 
-                          type="text" 
-                          class="email_capture" 
-                          placeholder="FULL NAME"
-                          v-model="form.name">
-                        </div>
-                        <div class="col your_email">
-                          <input 
-                          type="text" 
-                          class="email_capture" 
-                          placeholder="YOUR EMAIL"
-                          v-model="form.email">
-                        </div>
-                        <div class="col your_email">
-                          <input 
-                          type="text" 
-                          class="email_capture" 
-                          placeholder="INSTAGRAM"
-                          v-model="form.instagram">
-                        </div>
-                        <div class="col your_email">
-                          <input 
-                          type="text" 
-                          class="email_capture" 
-                          placeholder="SHOE SIZE"
-                          v-model="form.shoe_size">
-                        </div>
-                        <!-- <div class="col">
-                          <button class="home__button" type="submit" >SUBMIT</button>
-                        </div> -->
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="home__button" v-on:click="closeModal()">CLOSE</button>
-                        <button type="submit" class="home__button">SEND</button>
-                      </div>
+    <section class="divider">
+    </section>
+
+    <section class="plans">
+        <div class="grid"></div>
+        <div class="plan">
+            <img src="@/assets/img/bit_icn.png" alt="">
+            <h1 class="plan-title">secure</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, accusantium numquam? Ea a id dolores ipsa dicta deserunt optio adipisci.</p>
+            <button>read more</button>
+        </div>
+        <div class="plan">
+            <img src="@/assets/img/mob_cash.png" alt="">
+            <h1 class="plan-title">secure</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, accusantium numquam? Ea a id dolores ipsa dicta deserunt optio adipisci.</p>
+            <button>read more</button>
+        </div>
+        <div class="plan">
+            <img src="@/assets/img/bit_cir.png" alt="">
+            <h1 class="plan-title">secure</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, accusantium numquam? Ea a id dolores ipsa dicta deserunt optio adipisci.</p>
+            <button>read more</button>
+        </div>
+    </section>
+
+    <section class="financial-support">
+        <h1>Financial Support</h1>
+    </section>
+
+    <section>
+        <div class="products">
+            <div class="products__item">
+                <img src="@/assets/img/analytics.png" alt="">
+                <h1>subsection</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, minima?</p>
+            </div>
+            <div class="products__item">
+                <img src="@/assets/img/robot.png" alt="">
+                <h1>subsection</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, minima?</p>
+            </div>
+            <div class="products__item">
+                <img src="@/assets/img/nodes.png" alt="">
+                <h1>subsection</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, minima?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="crpto-prices">
+        <h1>crypto currency prices</h1>
+        <div class="top3">
+            <div class="price">
+                <h1>bitcoin</h1>
+                <img src="" alt="">
+                <h2>current Price</h2>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="packages">
+        <h1>Investment Packages</h1>
+        <img src="@/assets/img/esquema.png" alt="">
+    </section>
+
+    
+    <section class="contact">
+        <h1>STAY IN TOUCH</h1>
+       <form class="container">
+            <div class="form-row">
+                <div class="form-group col-md-6 ">
+                    <input type="email" class="" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="password" class="" id="inputPassword4" placeholder="Password">
+                </div>
+            </div>           
+            <div class="form-group">
+                <input type="text" class="" id="inputAddress2" placeholder="message">
+            </div>
+            <button type="submit" >SEND MESSAGE</button>
+        </form>
+    </section>
+    
+    
+    
+    
+    <section>
+        <div class="faq">
+            <div class="faq-title">
+                <h1>FREQUENT ASK QUESTIONS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, itaque.</p>
+            </div>
+            <div class="faq">
+                <button>FAQ</button>
+            </div>
+        </div>
+    </section>
 
 
-                    </form>
-                  </div>
-                  
         
-          
-            </b-modal>
-
-
-
-
-    <!-- <section class="hero">
-        <div class="carousel-caption custom-caption d-md-block">
-            <div class="custom-caption__slide-num">for</div>
-            <div class="custom-caption__slide-heading">SMART</div>
-            <div class="custom-caption__slide-sub-heading">INVESTORS</div>
-        </div>
-
-        <div id="carouselExampleIndicators" class="carousel slide custom-slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img class="d-block w-100" src="https://placeimg.com/1000/980/tech/grayscale" alt="First slide">
-                    
-                </div>
-                <div class="carousel-item">
-                <img class="d-block w-100" src="https://placeimg.com/1000/980/arch/grayscale" alt="Second slide">
-              
-                </div>
-                <!-- <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Third slide">
-                </div> -->
-            <!-- </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-        </section> -->
-
-        <!-- <section class="intro">
-            <div class="intro-left">
-                <img src="@/assets/img/logo_icon.png" alt="">
-            </div>
-            <div class="intro-right">
-                <img class="intro-logo" src="@/assets/img/your-logo.png" alt="">
-            </div>
-            
-        </section>
-
-        <section class="divider2">
-            <button class="btn outline-success divider2-btn">BUTTON</button>
-        </section>
-
-        <section class="shop container">
-            <h1>SHOP NOW</h1>
-            <h2>Subtext</h2>
-            <div class="shop-shoes">
-                <img src="@/assets/img/intro-shoe.jpg" alt="" class="shoe">
-                <img src="@/assets/img/intro-shoe.jpg" alt="" class="shoe">
-                <img src="@/assets/img/intro-shoe.jpg" alt="" class="shoe">
-                <img src="@/assets/img/intro-shoe.jpg" alt="" class="shoe">
-                <img src="@/assets/img/intro-shoe.jpg" alt="" class="shoe">
-                <img src="@/assets/img/intro-shoe.jpg" alt="" class="shoe">
-                <img src="@/assets/img/intro-shoe.jpg" alt="" class="shoe">
-                <img src="@/assets/img/intro-shoe.jpg" alt="" class="shoe">
-            </div>
-            <button class="btn vv-button">SHOP MORE</button>
-        </section>
-
-        <section class="men-shoes">
-            <div class="container men-shoes-content">
-                <img class="" src="@/assets/img/your-logo.png" alt="">
-                <h3>SUBTEXT</h3>
-                <button class="btn vv-button">SHOP MORE</button>
-            </div>
-        </section>
-        <Footer/> -->
+    <Footer/>
   </div>
 </template>
 

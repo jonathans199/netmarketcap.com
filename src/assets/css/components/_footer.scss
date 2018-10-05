@@ -1,18 +1,11 @@
-footer {
-    // height: 30rem;
+.footer {
     display: flex;
-    background: #fff;
+    justify-content: space-between;
+    align-items: center;
     
-
-    ul {
-        display: flex;
-        list-style-type: none;
-    
-        li {
-            margin: 5rem;
-        }
-    }
-
+    background: #0E1A2F;
+    height: 20rem;
+    color: $color-white;
 }
 
 .footer-logo {

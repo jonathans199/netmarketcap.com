@@ -100,10 +100,10 @@
         </div>
     </section> -->
 
-    <section class="packages">
+    <!-- <section class="packages">
         <h1>Investment Packages</h1>
         <img src="@/assets/img/esquema.png" alt="">
-    </section>
+    </section> -->
 
     
     <section class="contact">

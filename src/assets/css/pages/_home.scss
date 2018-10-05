@@ -39,8 +39,6 @@
   }
 }
 
-
-
 .main-text {
   font-size: 6rem;
   border: 5px solid $color-orange;
@@ -69,7 +67,7 @@
   display: flex;
 
   width: 100%;
-  height: 60rem;
+  height: 100%;
 }
 
 .intro-left {
@@ -189,19 +187,20 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 1000px) {
+  .intro-left {
+    display: none;
+  }
+  .intro-right {
+    width: 100%;
+  }
+  .plans {
+    flex-direction: column;
+  }
+  .products {
+    flex-direction: column;
+  }
+}
 
 //********* FINANCIAL SUPPORT ******************
 
@@ -223,10 +222,6 @@
   }
 }
 
-
-
-
-
 //********* PRODUCTS ******************
 
 .products {
@@ -235,7 +230,8 @@
   align-items: center;
 
   width: 100%;
-  height: 40rem;
+  height: 100%;
+  padding: 10rem 0; 
   text-align: center;
 
   background: #fff;

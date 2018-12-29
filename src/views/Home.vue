@@ -22,11 +22,7 @@
             <h4 class="subtext">FOR</h4>
             <h1 class="main-text">SMART</h1>
             <h1 class="submain-text">INVESTORS</h1>
-            <div class="social_icons">
-                <a class="fab fa-facebook-square" href="https://www.facebook.com/vivielashoes" target="_blank"></a>&nbsp;
-                <a class="fab fa-instagram" href="https://www.instagram.com/viviela.official/?hl=en" target="_blank"></a>&nbsp;
-                <a class="fab fa-youtube" href="https://www.youtube.com/user/vivielalondon" target="_blank"></a>
-            </div>
+            
         </div>
     </section>
     <section class="intro">
@@ -34,9 +30,11 @@
             <img src="@/assets/img/logo_icon.png" alt="">
         </div>
         <div class="intro-right">
-            <h1>WE ARE A COMPANY...</h1>
-            <p><b>Why do we use it?</b> </br> 
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            <h1>WHAT IS NETMARKETCAP...</h1>
+            <p>
+                <p>It is the flagship product of an international company with physical offices in Germany, which proposes to implement its tools to increase the results in the securities market of Cryptocurrencies through Trading, guided by world experts. <p> Netmarketcap is also a tool focused on improving relational systems between investors and a team of professional traders in cryptocurrencies, with the best strategies and the best conditions based on trust with the goal of win-win as the fundamental focus of our company.</p>
+                <p>We are convinced that with strategic planning this emerging market can take us to new levels of sustainable profits over time.</p>
+            </p>
         </div>
     </section>
 
@@ -47,21 +45,21 @@
         <div class="grid"></div>
         <div class="plan">
             <img src="@/assets/img/bit_icn.png" alt="">
-            <h1 class="plan-title">secure</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, accusantium numquam? Ea a id dolores ipsa dicta deserunt optio adipisci.</p>
-            <button>read more</button>
+            <h1 class="plan-title">PROFITABLE</h1>
+            <p>Your investment is assured in Netmarketcap. Our international traders give us the peace of mind necessary to offer you the best monthly performance rates. The operations of our traders are based on technical analysis and functional analysis to ensure the best results</p>
+            <button v-on:click="openTab('http://app.netmarketcap.com/#/register')">Sign up</button>
         </div>
         <div class="plan">
             <img src="@/assets/img/mob_cash.png" alt="">
-            <h1 class="plan-title">secure</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, accusantium numquam? Ea a id dolores ipsa dicta deserunt optio adipisci.</p>
-            <button>read more</button>
+            <h1 class="plan-title">PAYMENTS</h1>
+            <p>Our automatic system of collections and payments of profitability allows us to ensure compliance with one hundred percent in the dates and amounts of payments to each user. We work hand in hand with experts in systems of generation of recurrent payments combined with dynamic payments, according to the needs of the market.</p>
+            <button v-on:click="openTab('http://app.netmarketcap.com/#/register')">Sign up</button>
         </div>
         <div class="plan">
             <img src="@/assets/img/bit_cir.png" alt="">
-            <h1 class="plan-title">secure</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, accusantium numquam? Ea a id dolores ipsa dicta deserunt optio adipisci.</p>
-            <button>read more</button>
+            <h1 class="plan-title">SECURITY</h1>
+            <p>Our Company is backed by world-class companies that work night and day to keep the portal insured. We want to generate the necessary trust in our investors and for this reason we do not save efforts or money to obtain the best in security.</p>
+            <button v-on:click="openTab('http://app.netmarketcap.com/#/register')">Sign up</button>
         </div>
     </section>
 
@@ -72,19 +70,19 @@
     <section>
         <div class="products">
             <div class="products__item">
-                <img src="@/assets/img/analytics.png" alt="">
-                <h1>subsection</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, minima?</p>
+                <img src="@/assets/img/nodes.png" alt="">
+                <h1>MASTER NODES</h1>
+                <p>A masternode is a type of complete node, but its functions go beyond retransmitting and verifying transactions through the network. They have gained momentum because they can be considered as an investment to obtain a source of passive income, constant and quickly put into operation.</p>
             </div>
             <div class="products__item">
                 <img src="@/assets/img/robot.png" alt="">
-                <h1>subsection</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, minima?</p>
+                <h1>MINING</h1>
+                <p>The bitcoin miners are the key figure in the blockchain that supports this cryptocurrency, and the approximately 2000 existing cryptocurrencies (and rising). And no, they are not people, but machines. Our Company has experts in modern mining systems to focus and optimize investments.</p>
             </div>
             <div class="products__item">
-                <img src="@/assets/img/nodes.png" alt="">
-                <h1>subsection</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, minima?</p>
+                <img src="@/assets/img/analytics.png" alt="">
+                <h1>TRADING</h1>
+                <p>The cryptocurrencies are one of the most profitable investments of the moment, being the Bitcoin the one with the highest volume and volatility. The opportunity to trade with cryptocurrencies is fantastic, since it allows you to invest 24 hours every day of the week. Our professional traders assure us the necessary profitability to make us sustainable over time.</p>
             </div>
         </div>
     </section>
@@ -100,13 +98,34 @@
         </div>
     </section> -->
 
-    <!-- <section class="packages">
+    <section class="packages">
         <h1>Investment Packages</h1>
-        <img src="@/assets/img/esquema.png" alt="">
-    </section> -->
+        <div class="packages-container">
+            <div class="package package-0">
+                <h2>Promo</h2>
+                <p>$50</p>
+            </div>
+            <div class="package package-1">
+                <h2>Basic</h2>
+                <p>$100</p>
+            </div>
+            <div class="package package-2">
+                <h2>Medium</h2>
+                <p>$250</p>
+            </div>
+            <div class="package package-3">
+               <h2>Platinum</h2>
+                <p>$500</p>
+            </div>
+            <div class="package package-4">
+                <h2>Gold</h2>
+                <p>$1,000</p>
+            </div>
+        </div>
+    </section>
 
     
-    <section class="contact">
+    <!-- <section class="contact">
         <h1>STAY IN TOUCH</h1>
        <form class="container">
             <div class="form-row">
@@ -122,12 +141,12 @@
             </div>
             <button type="submit" >SEND MESSAGE</button>
         </form>
-    </section>
+    </section> -->
     
     
     
     
-    <section>
+    <!-- <section>
         <div class="faq">
             <div class="faq-title">
                 <h1>FREQUENT ASK QUESTIONS</h1>
@@ -137,7 +156,7 @@
                 <button>FAQ</button>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
         
@@ -155,7 +174,12 @@ export default {
   components: {
     Footer,
     Header
-  }
+  },
+  methods: {
+    openTab(url){
+      window.open(url, '_blank');
+    }
+}
 }
 
 </script>

@@ -179,7 +179,7 @@ export default {
     openTab(url){
       window.open(url, '_blank');
     }
-}
+  }
 }
 
 </script>

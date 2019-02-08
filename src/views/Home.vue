@@ -38,6 +38,34 @@
         </div>
     </section>
 
+    <section class="financial-support">
+        <h1>Netcoin.io</h1>
+        
+    </section>
+
+    <section style="text-align: center">
+        <h1 style="padding-top: 30px; font-size: 30px;">CORE ENGINEERS</h1>
+        <p style="font-size: 20px">Motivated developers move projects forward more than anyone else. Netcoin.io Developers have a relentless desire to learn and grow, and they consistently push themselves forward.</p>
+        <div class="products">
+            
+            <div class="products__item">
+                <img src="@/assets/img/netcoin1.png" alt="">
+                <h1>JASON SNAP</h1>
+                <p>Working with Netcoin since October 2013. 6 years with Business Development &amp; Startups, 4 years with Photoshop, 3 years with WordPress </p>
+            </div>
+            <div class="products__item">
+                <img src="@/assets/img/netcoin2.png" alt=""style="width: 300px">
+                <h1>Peter Liang</h1>
+                <p>Working with Netcoin since March 2014.  10+ years with C and C++ code, 4 years in cryptos and development, 2 years with linux,apache,mysql and php</p>
+            </div>
+            <div class="products__item">
+                <img src="@/assets/img/netcoin3.png" alt="" >
+                <h1>Jason K</h1>
+                <p>Working with Netcoin since August 2015. 8+ Years in Business Development & Startups, 7+ years in Real Estate Development</p>
+            </div>
+        </div>
+    </section>
+
     <section class="divider">
     </section>
 

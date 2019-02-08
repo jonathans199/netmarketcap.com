@@ -7,6 +7,7 @@
             <a href="#">Support</a>
             <a href="#">Products</a>
             <a href="#">Contact</a> -->
+            <a href="https://play.google.com/store/apps/details?id=xyz.lioncomputer.netmarketcap" target="_blank"><img src="@/assets/img/gplay.png" alt="" style="width: 150px"></a>
             <button v-on:click="openTab('http://app.netmarketcap.com/#/register')">REGISTER</button>
             <button v-on:click="openTab('http://app.netmarketcap.com/#/login')">LOGIN</button>
         </div>
